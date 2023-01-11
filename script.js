@@ -12,3 +12,11 @@ function myFunction() {
         console.error("Error:", error);
       });
   }
+// Récupération des éléments
+let menuButton = document.getElementById("menu-button");
+let menu = document.getElementById("menu");
+
+// Ajout d'un écouteur d'événement pour afficher/masquer le menu lorsque le bouton est cliqué
+menuButton.addEventListener("click", function() {
+    menu.classList.toggle("show");
+});
