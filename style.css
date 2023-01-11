@@ -67,10 +67,22 @@ body {
   border-radius: 10px;
   background-color: #343434;
   color: white;
-  margin-top:5%;
+  margin-top:2%;
   margin-left: 25%;
 }
 #catfact{
   text-align: center;
   margin-top:5%;
+}
+.displayFactor{
+  background-color: #FF7F57;
+  border:none;
+  border-radius:5px;
+  color:white;
+  margin-top:5%;
+  margin-left:35%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top: 5px;
+  padding-bottom:5px;
 }
