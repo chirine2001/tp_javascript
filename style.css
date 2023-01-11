@@ -62,13 +62,14 @@ body {
     gap:10%;
 }
 .facts{
-  width: 772px;
-  height: 254px;
+  width: 50%;
+  height: 50%;
   border-radius: 10px;
   background-color: #343434;
   color: white;
   margin-top:2%;
-  margin-left: 25%;
+  margin-left:25%;
+  padding-bottom: 2%;
 }
 #catfact{
   text-align: center;
@@ -79,10 +80,22 @@ body {
   border:none;
   border-radius:5px;
   color:white;
-  margin-top:5%;
-  margin-left:35%;
-  padding-left:5%;
-  padding-right:5%;
-  padding-top: 5px;
-  padding-bottom:5px;
+}
+.divFacts{
+  text-align: center;
+  margin-top: 5%;
+}
+@media only screen and (max-width: 768px) {
+  .displayFactor {
+    width: 50%;
+    height:50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .facts {
+    width: 50%;
+    height:50%;
+    margin-top:10%;
+    padding:2%;
+  }
 }
