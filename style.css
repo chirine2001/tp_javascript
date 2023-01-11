@@ -61,3 +61,16 @@ body {
     justify-content: center;
     gap:10%;
 }
+.facts{
+  width: 772px;
+  height: 254px;
+  border-radius: 10px;
+  background-color: #343434;
+  color: white;
+  margin-top:5%;
+  margin-left: 25%;
+}
+#catfact{
+  text-align: center;
+  margin-top:5%;
+}
