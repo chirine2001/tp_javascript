@@ -143,3 +143,22 @@ body {
       display: block;
   }
 }
+.anec{
+  text-decoration: none;
+  color:#FF7F57;
+}
+.race{
+  text-decoration: none;
+  color:#FF7F57;
+}
+.pelagepays{
+  width: 50%;
+  height:50%;
+  background-color: #343434;
+  color: white;
+}
+.title{
+  color:#FF7F57;
+  font-weight: 700;
+  font-size:18px;
+}
