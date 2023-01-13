@@ -152,13 +152,29 @@ body {
   color:#FF7F57;
 }
 .pelagepays{
-  width: 50%;
-  height:50%;
+  float:left;
+  width: 30%;
+  height:100%;
   background-color: #343434;
   color: white;
+  /* margin-left:3%; */
+  margin-top: 2%;
+  padding:2%;
+  border-radius: 10px;
+  gap:2%;
 }
 .title{
   color:#FF7F57;
   font-weight: 700;
   font-size:18px;
+}
+.explanations{
+  float:right;
+  border-radius: 10px;
+  background-color: #343434;
+  color:white;
+  width: 45%;
+  height:50%;
+  margin-top: 2%;
+  padding:2%;
 }

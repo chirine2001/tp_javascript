@@ -15,7 +15,7 @@
   <nav id="menu">
     <a class="navbar-brand" href="index.html"
       style="color:white; font-weight: bold; background-color: #FF7F57;">CatSting</a>
-    <button onclick="myFunction()" style="border:none; background-color: #FF7F57;"><img src="sun.png"></button>
+    <button onclick="darkMode()" style="border:none; background-color: #FF7F57;"><img src="sun.png"></button>
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
@@ -46,7 +46,7 @@
             <a class="nav-link active" href="races.html">Races</a>
           </li>
         </ul>
-        <button onclick="myFunction()" style="border:none; background-color: #FF7F57;"><img src="sun.png"></button>
+        <button onclick="darkMode()" style="border:none; background-color: #FF7F57;"><img src="sun.png"></button>
       </div>
     </div>
   </nav>
@@ -54,14 +54,19 @@
 
   <div class="pelagepays">
     <p class="title">Races</p>
-    <select name="country" id="select-country">
-      <option value="">Par pays</option>
+    <select name="breed" id="select-breed" onchange="catFeatures()">
+      <option value="">Par race</option>
 
     </select>
-    <select name="coat" id="select-coat">
+    <select name="coat" id="select-coat" onchange="catFeatures()">
       <option value="">Par pelage</option>
     
     </select>
+  </div>
+
+  <div class="explanations">
+    <h1 style="color:#FF7F57; text-align: center;">Anecdote</h1>
+    <p id="explain"></p>
   </div>
   <script src="script.js"></script>
 </body>
